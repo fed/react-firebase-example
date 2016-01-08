@@ -1,0 +1,27 @@
+body {
+  padding-top: 20px;
+}
+
+.wrapper {
+  border: 1px solid #cbcbcb;
+  border-radius: 4px;
+  padding: 25px;
+  margin-top: 15px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.initially-hidden {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.task {
+  margin-top: 10px;
+}
