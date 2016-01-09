@@ -5,3 +5,7 @@
 First things first, run `npm install` to fetch all of the dependencies.
 
 Then run `npm start` to build the dist files and launch the app on a local webserver.
+
+## Firebase App URL
+
+https://react-js-example.firebaseio.com/
