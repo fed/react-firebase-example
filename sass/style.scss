@@ -1,12 +1,14 @@
+$color-light-gray: #cbcbcb;
+
 body {
   padding-top: 20px;
 }
 
 .wrapper {
-  border: 1px solid #cbcbcb;
+  border: 1px solid $color-light-gray;
   border-radius: 4px;
-  padding: 25px;
   margin-top: 15px;
+  padding: 25px;
 }
 
 h1 {

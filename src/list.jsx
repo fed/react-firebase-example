@@ -3,9 +3,9 @@ var ListItem = require('./list-item');
 
 module.exports = React.createClass({
   render: function () {
-    return <div>{this.conditionalRender()}</div>
+    return <div>{this.renderListUnlessEmpty()}</div>
   },
-  conditionalRender: function () {
+  renderListUnlessEmpty: function () {
     if (this.props.items) {
       var children = [];
 
@@ -20,4 +20,4 @@ module.exports = React.createClass({
       return <h4>All caught up!</h4>
     }
   }
-})
+});

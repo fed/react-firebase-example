@@ -20,7 +20,7 @@ var App = React.createClass({
       loaded: false
     }
   },
-  render: function() {
+  render: function () {
     return <div>
       <Header itemsStore={this.firebaseRefs.items} />
       <hr />
